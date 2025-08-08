@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3D3C48DC2E43E3AB0055A70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3C48C62E43E3A80055A70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3C48CD2E43E3A80055A70C;
+			remoteInfo = "Backpacking Tracker";
+		};
+		3D3C48E62E43E3AB0055A70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3C48C62E43E3A80055A70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3C48CD2E43E3A80055A70C;
+			remoteInfo = "Backpacking Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D3C48CE2E43E3A80055A70C /* Backpacking Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backpacking Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3C48DB2E43E3AB0055A70C /* Backpacking TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backpacking TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3C48E52E43E3AB0055A70C /* Backpacking TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backpacking TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D3C48D02E43E3A80055A70C /* Backpacking Tracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Backpacking Tracker";
+			sourceTree = "<group>";
+		};
+		3D3C48DE2E43E3AB0055A70C /* Backpacking TrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Backpacking TrackerTests";
+			sourceTree = "<group>";
+		};
+		3D3C48E82E43E3AB0055A70C /* Backpacking TrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Backpacking TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3C48CB2E43E3A80055A70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C48D82E43E3AB0055A70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C48E22E43E3AB0055A70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3C48C52E43E3A80055A70C = {
+			isa = PBXGroup;
+			children = (
+				3D3C48D02E43E3A80055A70C /* Backpacking Tracker */,
+				3D3C48DE2E43E3AB0055A70C /* Backpacking TrackerTests */,
+				3D3C48E82E43E3AB0055A70C /* Backpacking TrackerUITests */,
+				3D3C48CF2E43E3A80055A70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3C48CF2E43E3A80055A70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C48CE2E43E3A80055A70C /* Backpacking Tracker.app */,
+				3D3C48DB2E43E3AB0055A70C /* Backpacking TrackerTests.xctest */,
+				3D3C48E52E43E3AB0055A70C /* Backpacking TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3C48CD2E43E3A80055A70C /* Backpacking Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3C48EF2E43E3AB0055A70C /* Build configuration list for PBXNativeTarget "Backpacking Tracker" */;
+			buildPhases = (
+				3D3C48CA2E43E3A80055A70C /* Sources */,
+				3D3C48CB2E43E3A80055A70C /* Frameworks */,
+				3D3C48CC2E43E3A80055A70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3D3C48D02E43E3A80055A70C /* Backpacking Tracker */,
+			);
+			name = "Backpacking Tracker";
+			packageProductDependencies = (
+			);
+			productName = "Backpacking Tracker";
+			productReference = 3D3C48CE2E43E3A80055A70C /* Backpacking Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D3C48DA2E43E3AB0055A70C /* Backpacking TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3C48F22E43E3AB0055A70C /* Build configuration list for PBXNativeTarget "Backpacking TrackerTests" */;
+			buildPhases = (
+				3D3C48D72E43E3AB0055A70C /* Sources */,
+				3D3C48D82E43E3AB0055A70C /* Frameworks */,
+				3D3C48D92E43E3AB0055A70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3C48DD2E43E3AB0055A70C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D3C48DE2E43E3AB0055A70C /* Backpacking TrackerTests */,
+			);
+			name = "Backpacking TrackerTests";
+			packageProductDependencies = (
+			);
+			productName = "Backpacking TrackerTests";
+			productReference = 3D3C48DB2E43E3AB0055A70C /* Backpacking TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D3C48E42E43E3AB0055A70C /* Backpacking TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3C48F52E43E3AB0055A70C /* Build configuration list for PBXNativeTarget "Backpacking TrackerUITests" */;
+			buildPhases = (
+				3D3C48E12E43E3AB0055A70C /* Sources */,
+				3D3C48E22E43E3AB0055A70C /* Frameworks */,
+				3D3C48E32E43E3AB0055A70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3C48E72E43E3AB0055A70C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D3C48E82E43E3AB0055A70C /* Backpacking TrackerUITests */,
+			);
+			name = "Backpacking TrackerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Backpacking TrackerUITests";
+			productReference = 3D3C48E52E43E3AB0055A70C /* Backpacking TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3C48C62E43E3A80055A70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					3D3C48CD2E43E3A80055A70C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3D3C48DA2E43E3AB0055A70C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3D3C48CD2E43E3A80055A70C;
+					};
+					3D3C48E42E43E3AB0055A70C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3D3C48CD2E43E3A80055A70C;
+					};
+				};
+			};
+			buildConfigurationList = 3D3C48C92E43E3A80055A70C /* Build configuration list for PBXProject "Backpacking Tracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3C48C52E43E3A80055A70C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3D3C48CF2E43E3A80055A70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3C48CD2E43E3A80055A70C /* Backpacking Tracker */,
+				3D3C48DA2E43E3AB0055A70C /* Backpacking TrackerTests */,
+				3D3C48E42E43E3AB0055A70C /* Backpacking TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3C48CC2E43E3A80055A70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C48D92E43E3AB0055A70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C48E32E43E3AB0055A70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3C48CA2E43E3A80055A70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C48D72E43E3AB0055A70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C48E12E43E3AB0055A70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3C48DD2E43E3AB0055A70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3C48CD2E43E3A80055A70C /* Backpacking Tracker */;
+			targetProxy = 3D3C48DC2E43E3AB0055A70C /* PBXContainerItemProxy */;
+		};
+		3D3C48E72E43E3AB0055A70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3C48CD2E43E3A80055A70C /* Backpacking Tracker */;
+			targetProxy = 3D3C48E62E43E3AB0055A70C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D3C48ED2E43E3AB0055A70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QC72Y82HP3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D3C48EE2E43E3AB0055A70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QC72Y82HP3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3C48F02E43E3AB0055A70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QC72Y82HP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Backpacking-Tracker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used to centre the map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Self.Backpacking-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D3C48F12E43E3AB0055A70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QC72Y82HP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Backpacking-Tracker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used to centre the map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Self.Backpacking-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D3C48F32E43E3AB0055A70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QC72Y82HP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Self.Backpacking-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backpacking Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backpacking Tracker";
+			};
+			name = Debug;
+		};
+		3D3C48F42E43E3AB0055A70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QC72Y82HP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Self.Backpacking-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backpacking Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backpacking Tracker";
+			};
+			name = Release;
+		};
+		3D3C48F62E43E3AB0055A70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QC72Y82HP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Self.Backpacking-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Backpacking Tracker";
+			};
+			name = Debug;
+		};
+		3D3C48F72E43E3AB0055A70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QC72Y82HP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Self.Backpacking-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Backpacking Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3C48C92E43E3A80055A70C /* Build configuration list for PBXProject "Backpacking Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C48ED2E43E3AB0055A70C /* Debug */,
+				3D3C48EE2E43E3AB0055A70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3C48EF2E43E3AB0055A70C /* Build configuration list for PBXNativeTarget "Backpacking Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C48F02E43E3AB0055A70C /* Debug */,
+				3D3C48F12E43E3AB0055A70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3C48F22E43E3AB0055A70C /* Build configuration list for PBXNativeTarget "Backpacking TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C48F32E43E3AB0055A70C /* Debug */,
+				3D3C48F42E43E3AB0055A70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3C48F52E43E3AB0055A70C /* Build configuration list for PBXNativeTarget "Backpacking TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C48F62E43E3AB0055A70C /* Debug */,
+				3D3C48F72E43E3AB0055A70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3C48C62E43E3A80055A70C /* Project object */;
+}
